@@ -10,7 +10,6 @@ text-decoration: none;
 
 .list{
 list-style-type: none;
-display: flex;
 gap: 40px;
 }
 
@@ -24,7 +23,7 @@ max-width: 100%;
 }
 
 .container{
-width: 1158px;
+width: 1440px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -69,9 +68,19 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+height: 24px;
+align-items: center;
+flex-shrink: 0;
 }
 
-.navigation-link{color: #2E2F42;font-size: 16px;font-style: normal;font-weight: 500;line-height: 24px;letter-spacing: 0.32px;
+.navigation-link{
+color: #2E2F42;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+display: inline-flex;
 }
 
 .navigation-link:hover,
