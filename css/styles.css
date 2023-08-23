@@ -22,10 +22,6 @@ display: block;
 max-width: 100%;
 }
 
-.container{
-width: 1440px;
-}
-
 h1, h2, h3, h4, h5, h6, p {
 margin-top: 0;
 margin-bottom: 0;
@@ -36,6 +32,26 @@ margin-top: 0;
 margin-bottom: 0;
 padding-left: 0;
 }
+
+.container{
+width: 1158px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+  }
 
 /* Header */
 
@@ -80,7 +96,6 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-display: inline-flex;
 }
 
 .navigation-link:hover,
@@ -184,7 +199,7 @@ line-height: 1.11;
 }
 
 .team-list{
-    background-color: #FFFFFF;
+background-color: #FFFFFF;
 }
 
 .worker-photo{
