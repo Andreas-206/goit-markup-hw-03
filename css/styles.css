@@ -73,6 +73,7 @@ color: #404bbf
 
 .navigation{
 background-color: #FFFFFF;
+display: flex;
 }
 
 .nav-logo{
