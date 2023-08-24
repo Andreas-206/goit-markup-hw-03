@@ -196,6 +196,11 @@ background-color: #404BBF
 display: flex;
 }
 
+.advan-section{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
 .advan-list{
   display: flex;
   width: 1158px;
@@ -226,11 +231,13 @@ letter-spacing: 0.02em;
 
 .section-team{
 background: #F4F4FD;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .team-img-padding{
-  padding-top: 32px;
-  padding-bottom: 32px;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .team-container{
@@ -251,6 +258,7 @@ line-height: 1.11;
 
 .team-list{
 background-color: #FFFFFF;
+;
 }
 
 .worker-photo{
@@ -281,8 +289,14 @@ letter-spacing: 0.02em;
 
 .portfolio-container{
 display: flex;
-gap: 24px;
+column-gap: 24px;
+row-gap: 48px;
 flex-wrap: wrap;
+}
+
+.portfolio-section{
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .portfolio-img-padding{
@@ -299,6 +313,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 
 .portfolio-app{
