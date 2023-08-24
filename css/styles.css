@@ -55,6 +55,10 @@ overflow: hidden;
 
 /* Header */
 
+.header-container{
+display: flex;
+}
+
 .studio{
 color: #2E2F42;
 font-family: Raleway;
@@ -64,6 +68,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
 }
 
 .studio:hover,
@@ -168,6 +173,10 @@ background-color: #404BBF
 }
 
 /* Sectuion 2 */
+
+.advan-conteiner{
+display: flex;
+}
 
 .advantages{
 color: #2E2F42;
