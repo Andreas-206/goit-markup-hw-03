@@ -94,6 +94,8 @@ text-transform: uppercase;
 height: 24px;
 align-items: center;
 flex-shrink: 0;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .navigation-link{
@@ -138,6 +140,8 @@ color: #404bbf
 .nav-list{
 display: flex;
 gap: 40px;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 
@@ -224,6 +228,11 @@ letter-spacing: 0.02em;
 background: #F4F4FD;
 }
 
+.team-img-padding{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team-container{
 display: flex;
 gap: 24px;  
@@ -276,7 +285,7 @@ gap: 24px;
 flex-wrap: wrap;
 }
 
-.img-padding{
+.portfolio-img-padding{
 padding-top: 32px;
 padding-bottom: 32px;
 }
