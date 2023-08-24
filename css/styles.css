@@ -157,6 +157,8 @@ letter-spacing: 0.02em;
 line-height: 1.07;
 width: 496px;
 height: 120px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .button-effective{
@@ -174,6 +176,8 @@ align-items: flex-start;
 gap: 10px;
 border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+margin-left: auto;
+margin-right: auto;
 }
 
 .button-effective:hover,
@@ -219,6 +223,11 @@ letter-spacing: 0.02em;
 background: #F4F4FD;
 }
 
+.team-container{
+display: flex;
+gap: 24px;  
+}
+
 .table-team{
 color: #2E2F42;
 text-align: center;
@@ -259,6 +268,18 @@ letter-spacing: 0.02em;
 }
 
 /* Sectio 4 */
+
+.portfolio-container{
+display: flex;
+gap: 24px;
+flex-wrap: wrap;
+}
+
+.img-padding{
+padding-top: 32px;
+padding-bottom: 32px;
+border: 1 solid #E7E9FC;
+}
 
 .table-portfolio{
 color: #2E2F42;
