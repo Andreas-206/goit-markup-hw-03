@@ -157,7 +157,6 @@ padding-bottom: 24px;
 background: #2E2F42;
 padding-top: 188px;
 padding-bottom: 188px;
-margin-bottom: 8px;
 }
 
 .table-effective{
@@ -227,6 +226,7 @@ font-style: normal;
 font-weight: 500;
 letter-spacing: 0.02em;
 line-height: 1.2; 
+margin-bottom: 8px
 }
 
 .advan-text{
@@ -287,6 +287,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px
 }
 
 .job-name{
@@ -338,6 +339,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px
 }
 
 .portfolio-change{
