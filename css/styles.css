@@ -204,7 +204,6 @@ background-color: #404BBF
 
 .advan-container{
 display: flex;
-width: ((100% - 72px) / 4);
 }
 
 .advan-section{
@@ -221,7 +220,7 @@ width: ((100% - 72px) / 4);
 }
 
 .advan-item{
-width: ((100% - 72px) / 4);
+width: ((100%-72px)/4);
 }
 
 .advantages{
