@@ -56,6 +56,10 @@ overflow: hidden;
 
 /* Header */
 
+.header{
+  border-bottom: 1px solid #e7e9fc
+}
+
 .header-container{
 display: flex;
 align-items: center;
@@ -81,6 +85,7 @@ color: #404bbf
 .navigation{
 background-color: #FFFFFF;
 display: flex;
+align-items: center
 }
 
 .nav-logo{
@@ -94,8 +99,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 height: 24px;
 align-items: center;
-padding-top: 24px;
-padding-bottom: 24px;
+margin-right: 76px;
 }
 
 .navigation-link{
@@ -105,6 +109,8 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .navigation-link:hover,
