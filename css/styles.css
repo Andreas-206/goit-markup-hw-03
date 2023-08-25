@@ -254,6 +254,7 @@ width: ((100% - 72px) / 4);
 .team-img-padding{
 padding-top: 32px;
 padding-bottom: 32px;
+border-radius: 0px 0px 4px 4px;
 }
 
 .team-container{
@@ -280,7 +281,6 @@ background-color: #FFFFFF;
 
 .worker-photo{
 background: url(<path-to-image>), lightgray -200px -7.128px / 251.515% 170.277% no-repeat;
-border-radius: 0px 0px 4px 4px;
 }
 
 .name-team{
