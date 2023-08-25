@@ -248,7 +248,6 @@ letter-spacing: 0.02em;
 background: #F4F4FD;
 padding-top: 120px;
 padding-bottom: 120px;
-width: calc((100% - 72px) / 4);
 }
 
 .team-img-padding{
@@ -276,6 +275,7 @@ margin-bottom: 72px;
 .team-list{
 background-color: #FFFFFF;
 border-radius: 0px 0px 4px 4px;
+width: calc((100% - 72px) / 4);
 ;
 }
 
@@ -316,7 +316,6 @@ flex-wrap: wrap;
 .portfolio-section{
 padding-top: 120px;
 padding-bottom: 120px;
-width: calc((100% - 48px) / 3);
 }
 
 .portfolio-img-padding{
