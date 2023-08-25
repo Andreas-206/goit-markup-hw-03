@@ -20,6 +20,7 @@ cursor: pointer;
 img{
 display: block;
 max-width: 100%;
+height: auto;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -198,6 +199,7 @@ display: flex;
 .advan-section{
 padding-top: 120px;
 padding-bottom: 120px;
+width: ((100% - 72px) / 3);
 }
 
 .advan-list{
@@ -232,6 +234,7 @@ letter-spacing: 0.02em;
 background: #F4F4FD;
 padding-top: 120px;
 padding-bottom: 120px;
+width: ((100% - 72px) / 3);
 }
 
 .team-img-padding{
@@ -253,6 +256,7 @@ font-weight: 700;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 line-height: 1.11;
+margin-bottom: 72px;
 }
 
 .team-list{
@@ -296,6 +300,7 @@ flex-wrap: wrap;
 .portfolio-section{
 padding-top: 120px;
 padding-bottom: 120px;
+width: ((100% - 72px) / 3);
 }
 
 .portfolio-img-padding{
