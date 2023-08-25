@@ -204,6 +204,7 @@ background-color: #404BBF
 
 .advan-container{
 display: flex;
+width: ((100% - 72px) / 4);
 }
 
 .advan-section{
