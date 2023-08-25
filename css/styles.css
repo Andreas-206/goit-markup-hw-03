@@ -318,7 +318,7 @@ flex-wrap: wrap;
 .portfolio-section{
 padding-top: 120px;
 padding-bottom: 120px;
-width: ((100% - 72px) / 6);
+width: ((100% - 72px) / 3);
 }
 
 .portfolio-img-padding{
