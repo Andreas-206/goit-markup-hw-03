@@ -209,7 +209,6 @@ display: flex;
 .advan-section{
 padding-top: 120px;
 padding-bottom: 120px;
-width: calc((100% - 72px) / 4);
 }
 
 .advan-list{
@@ -220,7 +219,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .advan-item{
-width: ((100%-72px)/4);
+width: calc((100%-72px)/4);
 }
 
 .advantages{
