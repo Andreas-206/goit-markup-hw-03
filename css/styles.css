@@ -74,7 +74,6 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-right: 76px;
 }
 
 .studio:hover,
@@ -168,7 +167,7 @@ font-weight: 700;
 letter-spacing: 0.02em;
 line-height: 1.07;
 max-width: 496px;
-padding-bottom: 48px;
+margin-bottom: 48px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -219,7 +218,7 @@ padding-bottom: 120px;
 }
 
 .advan-item{
-width: calc((100%-72px)/4);
+width: calc((100% - 72px) / 4);
 }
 
 .advantages{
@@ -405,7 +404,6 @@ margin-bottom: 16px;
 .text-footer{
 color: #F4F4FD;
 width: 264px;
-margin-top: 18px;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
